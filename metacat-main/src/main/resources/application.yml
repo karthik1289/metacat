@@ -30,9 +30,12 @@ metacat:
   metrics:
     default-registry:
       enabled: true
+  usermetadata:
+    config:
+      location: /Users/kkaruna/Desktop/usermeta/
   plugin:
     config:
-      location: /etc/catalog
+      location: /Users/kkaruna/Desktop/metacat/
   swagger:
     enabled: true
 
